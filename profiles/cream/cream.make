@@ -4,7 +4,6 @@ projects[] = drupal
 
 ; Modules
 ; Contrib
-projects[] = admin
 projects[] = ctools
 projects[] = ckeditor
 projects[] = date
