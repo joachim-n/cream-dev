@@ -1,0 +1,7 @@
+name = Cream Timetable
+description = Provides a Views timetable plugin for Cream timetables.
+package = Cream
+dependencies[] = views
+dependencies[] = timetable
+core = 7.x
+files[] = tests/cream_timetable.test
