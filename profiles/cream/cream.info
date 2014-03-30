@@ -32,6 +32,7 @@ dependencies[] = libraries
 dependencies[] = module_filter
 dependencies[] = strongarm
 dependencies[] = views
+dependencies[] = views_pivot
 dependencies[] = timetable
 ; CREAM
 dependencies[] = cream_feature_schedule

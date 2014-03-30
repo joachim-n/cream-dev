@@ -20,6 +20,7 @@ projects[] = strongarm
 projects[] = token
 projects[] = timefield
 projects[] = views
+projects[] = views_pivot
 projects[] = views_slideshow
 projects[] = webform
 
