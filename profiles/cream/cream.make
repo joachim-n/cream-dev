@@ -26,3 +26,10 @@ projects[] = webform
 
 ; CREAM
 projects[] = timetable
+
+; Libraries
+; For timefield
+; TODO: supply this as a patch to timefield module?
+libraries[timepicker][type] = "libraries"
+libraries[timepicker][download][type] = "get"
+libraries[timepicker][download][url] = "https://fgelinas.com/code/timepicker/releases/jquery-ui-timepicker-0.3.3.zip"
