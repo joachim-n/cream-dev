@@ -244,7 +244,7 @@ function cream_feature_schedule_field_default_field_instances() {
         'module' => 'timetable',
         'settings' => array(),
         'type' => 'timetable_form_link',
-        'weight' => 2,
+        'weight' => 3,
       ),
       'teaser' => array(
         'label' => 'above',
