@@ -34,7 +34,7 @@
           </th>
         </tr>
       <?php endif; ?>
-      <?php if ($show_header) : ?>
+      <?php if ($show_header && !empty($rooms)) : ?>
         <?php /* Header row for the column labels: timeslot and rooms */ ?>
         <tr class="timetable-header">
           <th scope="col" class="timetable-timeslot">
