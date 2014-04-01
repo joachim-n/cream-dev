@@ -31,6 +31,9 @@ projects[eva][subdir] = "contrib"
 projects[features][type] = "module"
 projects[features][subdir] = "contrib"
 
+projects[field_permissions][type] = "module"
+projects[field_permissions][subdir] = "contrib"
+
 projects[inline_entity_form][type] = "module"
 projects[inline_entity_form][subdir] = "contrib"
 

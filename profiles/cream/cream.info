@@ -25,6 +25,7 @@ dependencies[] = entity
 dependencies[] = eva
 dependencies[] = inline_entity_form
 dependencies[] = features
+dependencies[] = field_permissions
 dependencies[] = jquery_update
 dependencies[] = libraries
 dependencies[] = module_filter
