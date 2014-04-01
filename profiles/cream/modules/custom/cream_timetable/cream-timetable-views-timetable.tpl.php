@@ -25,24 +25,28 @@
   <?php endif; ?>
   <tbody>
     <?php foreach ($schedules as $schedule_day => $schedule_content) : ?>
-      <?php /* Header row for the schedule. */ ?>
-      <tr class="timetable-schedule">
-        <th colspan="<?php print $total_span; ?>" scope="col">
-          <?php /* TODO: use element setting from the view field! */ ?>
-          <h3><?php print $schedule_content; ?></h3>
-        </th>
-      </tr>
-      <?php /* Header row for the column labels: timeslot and rooms */ ?>
-      <tr class="timetable-header">
-        <th scope="col" class="timetable-timeslot">
-          <?php print $timeslot_header_label; ?>
-        </th>
-        <?php foreach ($rooms as $room => $room_content) : ?>
-          <th scope="col" class="timetable-room">
-            <?php print $room_content; ?>
+      <?php if ($show_schedule) : ?>
+        <?php /* Header row for the schedule. */ ?>
+        <tr class="timetable-schedule">
+          <th colspan="<?php print $total_span; ?>" scope="col">
+            <?php /* TODO: use element setting from the view field! */ ?>
+            <h3><?php print $schedule_content; ?></h3>
           </th>
-        <?php endforeach; /* rooms */ ?>
-      </tr>
+        </tr>
+      <?php endif; ?>
+      <?php if ($show_header) : ?>
+        <?php /* Header row for the column labels: timeslot and rooms */ ?>
+        <tr class="timetable-header">
+          <th scope="col" class="timetable-timeslot">
+            <?php print $timeslot_header_label; ?>
+          </th>
+          <?php foreach ($rooms as $room => $room_content) : ?>
+            <th scope="col" class="timetable-room">
+              <?php print $room_content; ?>
+            </th>
+          <?php endforeach; /* rooms */ ?>
+        </tr>
+      <?php endif; ?>
       <?php foreach ($timeslots[$schedule_day] as $timeslot_time => $timeslot_content) : ?>
         <?php /* Row for each timeslot */ ?>
         <tr>

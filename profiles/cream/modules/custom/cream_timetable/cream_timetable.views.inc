@@ -71,6 +71,9 @@ function template_preprocess_cream_timetable_views_timetable(&$vars) {
   $options  = $view->style_plugin->options;
   $handler  = $view->style_plugin;
 
+  // Options that affect what we output.
+  $vars['show_schedule'] = $handler->options['show_schedule'];
+  $vars['show_header'] = $handler->options['show_header'];
 
   // Fields must be rendered in order as of Views 2.3, so we will pre-render
   // everything.
