@@ -275,6 +275,53 @@ function cream_feature_schedule_field_default_field_instances() {
     ),
   );
 
+  // Exported field_instance: 'node-session-field_session_room'
+  $field_instances['node-session-field_session_room'] = array(
+    'bundle' => 'session',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'entityreference',
+        'settings' => array(
+          'link' => FALSE,
+        ),
+        'type' => 'entityreference_label',
+        'weight' => 3,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_session_room',
+    'label' => 'Room',
+    'required' => 0,
+    'settings' => array(
+      'behaviors' => array(
+        'schedule_timeslot' => array(
+          'status' => 0,
+        ),
+        'session_timeslot' => array(
+          'status' => 0,
+        ),
+      ),
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'options',
+      'settings' => array(),
+      'type' => 'options_select',
+      'weight' => 2,
+    ),
+  );
+
   // Exported field_instance: 'node-session-field_session_track'
   $field_instances['node-session-field_session_track'] = array(
     'bundle' => 'session',

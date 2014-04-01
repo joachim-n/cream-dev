@@ -14,6 +14,41 @@ function cream_feature_schedule_ctools_plugin_api($module = NULL, $api = NULL) {
 }
 
 /**
+ * Implements hook_eck_bundle_info().
+ */
+function cream_feature_schedule_eck_bundle_info() {
+  $items = array(
+  'room_room' => array(
+  'machine_name' => 'room_room',
+  'entity_type' => 'room',
+  'name' => 'room',
+  'label' => 'Room',
+),
+  );
+  return $items;
+}
+
+/**
+ * Implements hook_eck_entity_type_info().
+ */
+function cream_feature_schedule_eck_entity_type_info() {
+$items = array(
+       'room' => array(
+  'name' => 'room',
+  'label' => 'Room',
+  'properties' => array(
+    'title' => array(
+      'label' => 'Title',
+      'type' => 'text',
+      'behavior' => 'title',
+    ),
+  ),
+),
+  );
+  return $items;
+}
+
+/**
  * Implements hook_node_info().
  */
 function cream_feature_schedule_node_info() {
