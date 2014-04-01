@@ -35,10 +35,6 @@ function cream_timetable_views_plugins() {
   );
 }
 
-class cream_timetable_plugin_style_timetable extends views_plugin_style_table {
-
-}
-
 /**
  * Callback to prepare row data for later rendering.
  *

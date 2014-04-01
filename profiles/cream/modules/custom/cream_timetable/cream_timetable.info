@@ -4,4 +4,4 @@ package = Cream
 dependencies[] = views
 dependencies[] = timetable
 core = 7.x
-files[] = tests/cream_timetable.test
+files[] = cream_timetable_plugin_style_timetable.inc
