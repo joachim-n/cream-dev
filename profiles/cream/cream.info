@@ -22,6 +22,7 @@ dependencies[] = rdf
 ; contrib
 dependencies[] = ctools
 dependencies[] = entity
+dependencies[] = eva
 dependencies[] = inline_entity_form
 dependencies[] = features
 dependencies[] = jquery_update

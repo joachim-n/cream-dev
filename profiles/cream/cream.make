@@ -25,6 +25,9 @@ projects[entityreference][subdir] = "contrib"
 projects[entity][type] = "module"
 projects[entity][subdir] = "contrib"
 
+projects[eva][type] = "module"
+projects[eva][subdir] = "contrib"
+
 projects[features][type] = "module"
 projects[features][subdir] = "contrib"
 
