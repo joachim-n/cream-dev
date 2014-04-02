@@ -1,9 +1,13 @@
-core = 7.x
+; This is the drupal.org makefile for CREAM.
+; This is what allows the drupal.org packaging system to create downloads
+; containing all the files for the distribution from core and contrib.
+; Documentation about this file:
+; https://drupal.org/developing/distributions/drupalorg
+
 api = 2
 
 ; Core
-projects[drupal][type] = "core"
-projects[drupal][version] = "7.26"
+core = 7.x
 
 ; Modules
 ; Contrib
