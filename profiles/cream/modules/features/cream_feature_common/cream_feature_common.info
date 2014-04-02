@@ -1,0 +1,12 @@
+name = Cream Common
+description = Provides common elements including roles.
+core = 7.x
+package = Cream
+dependencies[] = features
+features[features_api][] = api:2
+features[user_role][] = attendee
+features[user_role][] = organiser
+features[user_role][] = participant
+features[user_role][] = sponsor
+features[user_role][] = volunteer
+project path = profiles/cream/modules/features
