@@ -80,12 +80,6 @@ projects[views_pivot][type] = "module"
 projects[views_pivot][subdir] = "contrib"
 projects[views_pivot][version] = "1.0"
 
-projects[views_slideshow][type] = "module"
-projects[views_slideshow][subdir] = "contrib"
-
-projects[webform][type] = "module"
-projects[webform][subdir] = "contrib"
-
 
 ; CREAM
 projects[timetable][type] = "module"
