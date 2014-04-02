@@ -111,6 +111,36 @@ function cream_feature_schedule_user_default_permissions() {
     'module' => 'node',
   );
 
+  // Exported permission: 'eck add timeslot timeslot entities'.
+  $permissions['eck add timeslot timeslot entities'] = array(
+    'name' => 'eck add timeslot timeslot entities',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'organiser' => 'organiser',
+    ),
+    'module' => 'eck',
+  );
+
+  // Exported permission: 'eck delete timeslot timeslot entities'.
+  $permissions['eck delete timeslot timeslot entities'] = array(
+    'name' => 'eck delete timeslot timeslot entities',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'organiser' => 'organiser',
+    ),
+    'module' => 'eck',
+  );
+
+  // Exported permission: 'eck edit timeslot timeslot entities'.
+  $permissions['eck edit timeslot timeslot entities'] = array(
+    'name' => 'eck edit timeslot timeslot entities',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'organiser' => 'organiser',
+    ),
+    'module' => 'eck',
+  );
+
   // Exported permission: 'edit any keynote content'.
   $permissions['edit any keynote content'] = array(
     'name' => 'edit any keynote content',
