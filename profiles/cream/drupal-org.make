@@ -26,13 +26,13 @@ projects[eck][type] = "module"
 projects[eck][subdir] = "contrib"
 projects[eck][version] = "2.0-rc2"
 
-projects[entityreference][type] = "module"
-projects[entityreference][subdir] = "contrib"
-projects[entityreference][version] = "1.1"
-
 projects[entity][type] = "module"
 projects[entity][subdir] = "contrib"
 projects[entity][version] = "1.4"
+
+projects[entityreference][type] = "module"
+projects[entityreference][subdir] = "contrib"
+projects[entityreference][version] = "1.1"
 
 projects[eva][type] = "module"
 projects[eva][subdir] = "contrib"
@@ -57,10 +57,6 @@ projects[jquery_update][version] = "2.3"
 projects[libraries][type] = "module"
 projects[libraries][subdir] = "contrib"
 projects[libraries][version] = "2.2"
-
-projects[module_filter][type] = "module"
-projects[module_filter][subdir] = "contrib"
-projects[module_filter][version] = "2.0-alpha2"
 
 projects[rules][type] = "module"
 projects[rules][subdir] = "contrib"
@@ -104,6 +100,7 @@ projects[devel][subdir] = "devel"
 
 projects[module_filter][type] = "module"
 projects[module_filter][subdir] = "devel"
+projects[module_filter][version] = "2.0-alpha2"
 
 projects[fpa][type] = "module"
 projects[fpa][subdir] = "devel"
