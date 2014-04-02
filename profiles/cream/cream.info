@@ -1,6 +1,5 @@
 name = Cream
 description = Install Cream disitribution.
-version = VERSION
 core = 7.x
 ; core dependencies
 dependencies[] = block
