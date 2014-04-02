@@ -98,7 +98,10 @@ projects[permission_grid][subdir] = "devel"
 
 ; Libraries
 ; For timefield
+; This has to be commented out for now, as d.org packaging won't allow it
+; until it's been added to the whitelist.
+; See https://drupal.org/node/2231789 for the request for the whitelist.
 ; TODO: supply this as a patch to timefield module?
-libraries[jquery.timepicker][type] = "libraries"
-libraries[jquery.timepicker][download][type] = "get"
-libraries[jquery.timepicker][download][url] = "https://fgelinas.com/code/timepicker/releases/jquery-ui-timepicker-0.3.3.zip"
+;libraries[jquery.timepicker][type] = "libraries"
+;libraries[jquery.timepicker][download][type] = "get"
+;libraries[jquery.timepicker][download][url] = "https://fgelinas.com/code/timepicker/releases/jquery-ui-timepicker-0.3.3.zip"
