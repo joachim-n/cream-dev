@@ -1,6 +1,12 @@
 name = Cream
 description = Install Cream disitribution.
+distribution_name = Drupal Cream
+; This causes this profile to be selected automatically.
+; See install_profile_info()
+exclusive = 1
+
 core = 7.x
+
 ; core dependencies
 dependencies[] = block
 dependencies[] = comment
