@@ -146,7 +146,17 @@ function cream_feature_schedule_field_default_field_bases() {
     'deleted' => 0,
     'entity_types' => array(),
     'field_name' => 'field_session_room',
-    'foreign keys' => array(),
+    'field_permissions' => array(
+      'type' => 2,
+    ),
+    'foreign keys' => array(
+      'eck_room' => array(
+        'columns' => array(
+          'target_id' => 'id',
+        ),
+        'table' => 'eck_room',
+      ),
+    ),
     'indexes' => array(
       'target_id' => array(
         0 => 'target_id',
@@ -191,7 +201,17 @@ function cream_feature_schedule_field_default_field_bases() {
     'deleted' => 0,
     'entity_types' => array(),
     'field_name' => 'field_session_timeslot',
-    'foreign keys' => array(),
+    'field_permissions' => array(
+      'type' => 2,
+    ),
+    'foreign keys' => array(
+      'eck_timeslot' => array(
+        'columns' => array(
+          'target_id' => 'id',
+        ),
+        'table' => 'eck_timeslot',
+      ),
+    ),
     'indexes' => array(
       'target_id' => array(
         0 => 'target_id',
