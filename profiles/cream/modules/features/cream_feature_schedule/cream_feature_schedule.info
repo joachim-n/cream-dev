@@ -66,6 +66,7 @@ features[user_permission][] = edit any scheduled_item content
 features[user_permission][] = edit any session content
 features[user_permission][] = edit field_session_room
 features[user_permission][] = edit field_session_timeslot
+features[user_permission][] = edit own session content
 features[user_permission][] = view field_session_room
 features[user_permission][] = view field_session_timeslot
 features[variable][] = comment_anonymous_keynote

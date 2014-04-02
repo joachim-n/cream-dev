@@ -66,6 +66,7 @@ function cream_feature_schedule_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'organiser' => 'organiser',
+      'participant' => 'participant',
     ),
     'module' => 'node',
   );
@@ -168,6 +169,16 @@ function cream_feature_schedule_user_default_permissions() {
       'organiser' => 'organiser',
     ),
     'module' => 'field_permissions',
+  );
+
+  // Exported permission: 'edit own session content'.
+  $permissions['edit own session content'] = array(
+    'name' => 'edit own session content',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'participant' => 'participant',
+    ),
+    'module' => 'node',
   );
 
   // Exported permission: 'view field_session_room'.
