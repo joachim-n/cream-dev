@@ -75,6 +75,23 @@ projects[webform][subdir] = "contrib"
 projects[timetable][type] = "module"
 projects[timetable][subdir] = "contrib"
 
+
+; Development and administration
+; These modules are here to help with administration and development of CREAM.
+; They are not required for its operation.
+projects[devel][type] = "module"
+projects[devel][subdir] = "devel"
+
+projects[module_filter][type] = "module"
+projects[module_filter][subdir] = "devel"
+
+projects[fpa][type] = "module"
+projects[fpa][subdir] = "devel"
+
+projects[permission_grid][type] = "module"
+projects[permission_grid][subdir] = "devel"
+
+
 ; Libraries
 ; For timefield
 ; TODO: supply this as a patch to timefield module?
