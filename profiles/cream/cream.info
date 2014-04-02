@@ -34,5 +34,6 @@ dependencies[] = views
 dependencies[] = views_pivot
 dependencies[] = timetable
 ; CREAM
+dependencies[] = cream_feature_common
 dependencies[] = cream_feature_schedule
 dependencies[] = cream_timetable
