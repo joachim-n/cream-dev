@@ -76,10 +76,6 @@ projects[views][type] = "module"
 projects[views][subdir] = "contrib"
 projects[views][version] = "3.7"
 
-projects[views_pivot][type] = "module"
-projects[views_pivot][subdir] = "contrib"
-projects[views_pivot][version] = "1.0"
-
 
 ; CREAM
 projects[timetable][type] = "module"
