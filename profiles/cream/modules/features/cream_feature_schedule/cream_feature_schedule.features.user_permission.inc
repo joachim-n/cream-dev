@@ -111,9 +111,39 @@ function cream_feature_schedule_user_default_permissions() {
     'module' => 'node',
   );
 
+  // Exported permission: 'eck add room room entities'.
+  $permissions['eck add room room entities'] = array(
+    'name' => 'eck add room room entities',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'organiser' => 'organiser',
+    ),
+    'module' => 'eck',
+  );
+
   // Exported permission: 'eck add timeslot timeslot entities'.
   $permissions['eck add timeslot timeslot entities'] = array(
     'name' => 'eck add timeslot timeslot entities',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'organiser' => 'organiser',
+    ),
+    'module' => 'eck',
+  );
+
+  // Exported permission: 'eck administer room room entities'.
+  $permissions['eck administer room room entities'] = array(
+    'name' => 'eck administer room room entities',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'organiser' => 'organiser',
+    ),
+    'module' => 'eck',
+  );
+
+  // Exported permission: 'eck delete room room entities'.
+  $permissions['eck delete room room entities'] = array(
+    'name' => 'eck delete room room entities',
     'roles' => array(
       'administrator' => 'administrator',
       'organiser' => 'organiser',
@@ -131,12 +161,43 @@ function cream_feature_schedule_user_default_permissions() {
     'module' => 'eck',
   );
 
+  // Exported permission: 'eck edit room room entities'.
+  $permissions['eck edit room room entities'] = array(
+    'name' => 'eck edit room room entities',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'organiser' => 'organiser',
+    ),
+    'module' => 'eck',
+  );
+
   // Exported permission: 'eck edit timeslot timeslot entities'.
   $permissions['eck edit timeslot timeslot entities'] = array(
     'name' => 'eck edit timeslot timeslot entities',
     'roles' => array(
       'administrator' => 'administrator',
       'organiser' => 'organiser',
+    ),
+    'module' => 'eck',
+  );
+
+  // Exported permission: 'eck list room room entities'.
+  $permissions['eck list room room entities'] = array(
+    'name' => 'eck list room room entities',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'organiser' => 'organiser',
+    ),
+    'module' => 'eck',
+  );
+
+  // Exported permission: 'eck view room room entities'.
+  $permissions['eck view room room entities'] = array(
+    'name' => 'eck view room room entities',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'anonymous user' => 'anonymous user',
+      'authenticated user' => 'authenticated user',
     ),
     'module' => 'eck',
   );
